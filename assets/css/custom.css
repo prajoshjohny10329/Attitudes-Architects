@@ -4805,6 +4805,8 @@ header.main-header .header-sticky.active .navbar {
 
 /* Hide content until preloader is done */
 .preloader-brand-title {
+	width: 100%;
+	padding: 0px 10px;
 	position: absolute;
 	top: 60%;
 	left: 50%;
@@ -4815,9 +4817,12 @@ header.main-header .header-sticky.active .navbar {
 	text-transform: uppercase;
 	opacity: 0;
 	animation: fadeInUp 2s ease-in-out forwards 0.5s;
+	text-shadow: 4px 0px 4px #450707;
 }
 
 .preloader-subtitle {
+	width: 100%;
+	padding: 0px 10px;
 	position: absolute;
 	top: 66%;
 	left: 50%;
@@ -4826,6 +4831,7 @@ header.main-header .header-sticky.active .navbar {
 	color: rgba(255, 255, 255, 0.8);
 	opacity: 0;
 	animation: fadeInUp 2s ease-in-out forwards 1s;
+	text-shadow: 4px 0px 4px #450707;
 }
 
 @keyframes fadeInUp {
@@ -4837,5 +4843,11 @@ header.main-header .header-sticky.active .navbar {
 	100% {
 		opacity: 1;
 		transform: translate(-50%, 0);
+	}
+}
+
+@media (max-width:500px) {
+	.preloader-subtitle{
+		padding-top: 25px;
 	}
 }
