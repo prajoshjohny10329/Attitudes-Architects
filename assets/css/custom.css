@@ -212,7 +212,7 @@ body{
     right: 0;
     width: 16px;
     height: 16px;
-    background-image: url(../images/arrow-white.svg);
+    background-image: url(../assets/images/arrow-white.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -256,7 +256,7 @@ body{
 }
 
 .btn-default.btn-highlighted::before{
-	background-image: url(../images/arrow-accent.svg);
+	background-image: url(../assets/images/arrow-accent.svg);
 }
 
 .btn-default.btn-highlighted:hover::before{
@@ -369,7 +369,7 @@ body{
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    background: url('../images/icon-sub-heading.svg');
+    background: url('../assets/images/icon-sub-heading.svg');
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: cover;
@@ -694,7 +694,7 @@ header.main-header .header-sticky.active .navbar{
 
 .hero{
 	position: relative;
-	background: url('../images/hero-bg.jpg');
+	background: url('../assets/images/hero-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -822,7 +822,7 @@ header.main-header .header-sticky.active .navbar{
 /************************************/
 
 .about-us{
-	background-image: url('../images/section-bg-shape-1.svg');
+	background-image: url('../assets/images/section-bg-shape-1.svg');
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: contain;
@@ -831,7 +831,7 @@ header.main-header .header-sticky.active .navbar{
 
 .about-us-images{
 	position: relative;
-	background-image: url(../images/about-us-bg-shape.svg);
+	background-image: url(../assets/images/about-us-bg-shape.svg);
 	background-repeat: no-repeat;
 	background-position: left 60px bottom 40px;
 	background-size: auto;
@@ -1595,7 +1595,7 @@ header.main-header .header-sticky.active .navbar{
 
 .our-skill{
 	padding: 100px 0;
-	background: url('../images/section-bg-shape-2.svg');
+	background: url('../assets/images/section-bg-shape-2.svg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
@@ -1653,7 +1653,7 @@ header.main-header .header-sticky.active .navbar{
 .our-skill-img-1{
 	width: 333px;
 	position: relative;
-	background: url('../images/our-skill-img-bg-dot.svg');
+	background: url('../assets/images/our-skill-img-bg-dot.svg');
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-size: 84px auto;
@@ -1727,7 +1727,7 @@ header.main-header .header-sticky.active .navbar{
 }
 
 .our-testimonial-content .section-title{
-	background: url('../images/testimonial-quote.svg') no-repeat;
+	background: url('../assets/images/testimonial-quote.svg') no-repeat;
 	background-position: top right;
 	background-size: 162px auto;
 }
@@ -1831,7 +1831,7 @@ header.main-header .header-sticky.active .navbar{
 
 .our-blog{
 	padding: 100px 0;
-	background: url('../images/section-bg-shape-2.svg');
+	background: url('../assets/images/section-bg-shape-2.svg');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: contain;
@@ -1896,7 +1896,7 @@ header.main-header .header-sticky.active .navbar{
 	transform: translate(0px , -50%);
 	width: 17px;
 	height: 16px;
-	background: url('../images/arrow-dark.svg') no-repeat;
+	background: url('../assets/images/arrow-dark.svg') no-repeat;
 	background-position: right center;
 	background-size: cover;
 	transition: all 0.4s ease-in-out;
@@ -2112,7 +2112,7 @@ header.main-header .header-sticky.active .navbar{
 
 .page-header{
 	position: relative;
-	background: url('../images/page-header-bg.jpg');
+	background: url('../assets/images/page-header-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -2329,7 +2329,7 @@ header.main-header .header-sticky.active .navbar{
 }
 
 .best-selling{
-	background: url(../images/section-bg-shape-1.svg);
+	background: url(../assets/images/section-bg-shape-1.svg);
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
@@ -2655,7 +2655,7 @@ header.main-header .header-sticky.active .navbar{
     width: 18px;
     height: 18px;
 	transform: translateY(-50%) rotate(-45deg);
-    background-image: url(../images/arrow-accent.svg);
+    background-image: url(../assets/images/arrow-accent.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -3042,7 +3042,7 @@ header.main-header .header-sticky.active .navbar{
 }
 
 .post-entry blockquote{
-	background: url(../images/icon-blockquote.svg), var(--accent-color);
+	background: url(../assets/images/icon-blockquote.svg), var(--accent-color);
 	background-repeat: no-repeat;
 	background-position: 35px 30px;
     background-size: 58px;
@@ -3398,7 +3398,7 @@ header.main-header .header-sticky.active .navbar{
     width: 18px;
     height: 18px;
     transform: translateY(-50%) rotate(-45deg);
-    background-image: url(../images/arrow-accent.svg);
+    background-image: url(../assets/images/arrow-accent.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -3554,7 +3554,7 @@ header.main-header .header-sticky.active .navbar{
 /************************************/
 
 .error-page{
-	background-image: url(../images/error-page-bg.svg);
+	background-image: url(../assets/images/error-page-bg.svg);
 	background-repeat: no-repeat;
 	background-position: top -100px center;
 	background-size: auto;
