@@ -96,22 +96,68 @@
         }
 
         /* Hide content until preloader is done */
-        .content {
-            display: none;
-            text-align: center;
-            padding: 20px;
-            color: white;
-        }
+        .preloader-brand-title {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    opacity: 0;
+    animation: fadeInUp 2s ease-in-out forwards 0.5s;
+}
+
+.preloader-subtitle {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    animation: fadeInUp 2s ease-in-out forwards 1s;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
+
     </style>
 </head>
 <body style="background: black; color: white;">
 
     <div class="preloader-container">
+        
         <img src="assets/images/attitudes-architects-logo.png" alt="Logo" class="preloader-container-logo"> <!-- Replace with your logo path -->
+        <h1 class="preloader-brand-title">Your Brand</h1>
+        <p class="preloader-subtitle">Your Tagline or Slogan</p>
         <div class="preloader-glow-line"></div>
         <div class="preloader-glowing-circle"></div>
     </div>
 
-    <div class="content">
+    <!-- <div class="content">
         <h1>Welcome to the Website</h1>
         <p>Content loaded successfully.</p>
+    </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                setTimeout(() => {
+                    // document.querySelector(".preloader-container").style.display = "none";
+                    // document.querySelector(".content").style.display = "block";
+                }, 2500); // Matches animation duration
+            });
+        </script> -->
+    
+    </body>
+    
+    </html>
