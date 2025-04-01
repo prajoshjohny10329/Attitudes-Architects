@@ -4816,7 +4816,7 @@ header.main-header .header-sticky.active .navbar {
 	color: white;
 	text-transform: uppercase;
 	opacity: 0;
-	animation: fadeInUp 2s ease-in-out forwards 0.5s;
+	animation: preLoaderFadeInUp 2s ease-in-out forwards 0.5s;
 	text-shadow: 4px 0px 4px #450707;
 }
 
@@ -4830,11 +4830,11 @@ header.main-header .header-sticky.active .navbar {
 	font-size: 18px;
 	color: rgba(255, 255, 255, 0.8);
 	opacity: 0;
-	animation: fadeInUp 2s ease-in-out forwards 1s;
+	animation: preLoaderFadeInUp 2s ease-in-out forwards 1s;
 	text-shadow: 4px 0px 4px #450707;
 }
 
-@keyframes fadeInUp {
+@keyframes preLoaderFadeInUp {
 	0% {
 		opacity: 0;
 		transform: translate(-50%, -30px);

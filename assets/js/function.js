@@ -7,7 +7,7 @@
 	/* Preloader Effect */
 	$window.on('load', function(){
 		setTimeout(() => {
-		$(".preloader-container").fadeOut(2000);
+			$(".preloader-container").fadeOut(2000);
 		}, 5000);
 	});
 
