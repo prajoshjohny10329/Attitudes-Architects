@@ -366,5 +366,16 @@
 			fixedContentPos: true
 		});
 	}
+
+	
 	
 })(jQuery);
+
+// Disable all anchor tag links
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("a").forEach(function (anchor) {
+      anchor.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent default link behavior
+      });
+    });
+  });
